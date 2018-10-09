@@ -1,0 +1,67 @@
+/* add your CSS here */
+body {
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 14px;
+}
+
+.animal-card {
+  width: 330px;
+  border-radius: 10px;
+  background-color: rgba(219, 232, 255, 1);
+  border: 4px groove grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  padding: 10px;
+}
+
+h3 {
+border: solid lightgrey 1px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 10px;
+text-transform: uppercase;
+text-align: center;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style:solid;
+  border-color:lightgrey;
+  border-radius: 0.5em 5em 0.5em 5em
+}
+
+.animal-facts {
+  margin: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: rgba(0, 65, 141, 0.3);
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  border: solid lightgrey 1px;
+}
+
+.brief-fact {
+  font: italic 13px 'Roboto Condensed', sans-serif;
+}
+
+.list-fact {
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+  font: italic smaller 'Roboto Condensed', sans-serif;
+}
+
+.list-fact >li {
+  margin: 1px;
+}
+
+.bold {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.description {
+  line-height: 1.4em;
+}
